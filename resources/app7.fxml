@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<VBox mouseTransparent="false" prefHeight="200.0" prefWidth="322.0" spacing="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="samples.javafx.base.App7FXMLController">
+  <children>
+    <Label fx:id="label1" prefHeight="57.0" prefWidth="355.0" text="How to use FXML" />
+    <TextField fx:id="text1" prefHeight="70.0" prefWidth="308.0" text="Initial Text" />
+    <Button fx:id="btn1" mnemonicParsing="false" text="Set Text" />
+  </children>
+  <stylesheets>
+    <URL value="@app7.css" />
+  </stylesheets>
+</VBox>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<VBox fx:id="parent" mouseTransparent="false" prefHeight="536.0" prefWidth="782.0" spacing="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="samples.javafx.canvas.CanvasApp1Controller">
+  <children>
+    <HBox>
+      <children>
+        <Button id="btn1" fx:id="btnBlack" mnemonicParsing="false" text="Black" textFill="BLACK" />
+        <Button id="btn1" fx:id="btnRed" mnemonicParsing="false" text="Red" textFill="RED" />
+        <Button id="btn2" fx:id="btnBlue" mnemonicParsing="false" text="Blue" textFill="BLUE" />
+        <Button id="btn2" fx:id="btnClear" mnemonicParsing="false" text="Clear" textFill="GREY" />
+      </children>
+    </HBox>
+    <ScrollPane id="ScrollPane" fx:id="pane" fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefViewportHeight="0.0" prefViewportWidth="0.0" style="">
+      <content>
+        <Canvas fx:id="canvas" height="1200.0" opacity="1.0" style="-fx-background-color: white" width="1200.0" />
+      </content>
+    </ScrollPane>
+  </children>
+</VBox>
