@@ -1,4 +1,10 @@
 *.class
+build/build/
+build/deploy/
+build/dist/
+build/externalLibs/
+build/project/
+build/projectRefs/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
