@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 /**
  * How to use <br>
  * javafx.event.EventHandler<br>
- * 
+ * <img alt="image" src="./doc-files/App5EventHandler.png">
  * @author sakamoto
  *
  */

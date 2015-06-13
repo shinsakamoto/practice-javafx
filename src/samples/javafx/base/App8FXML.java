@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * How to use <br>
  * fxml<br>
  * Handler mapping in fxml<br>
- * 
+ * <img alt="image" src="./doc-files/App8FXML.png">
  * @author sakamoto
  *
  */

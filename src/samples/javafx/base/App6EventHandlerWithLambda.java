@@ -12,7 +12,7 @@ import javafx.stage.Stage;
  * How to use <br>
  * javafx.event.EventHandler<br>
  * Lambda<br>
- * 
+ * <img alt="image" src="./doc-files/App6EventHandlerWithLambda.png">
  * @author sakamoto
  *
  */

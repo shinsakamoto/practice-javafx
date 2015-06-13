@@ -22,67 +22,69 @@ import javafx.stage.Stage;
  * How to use <br>
  * javafx.scene.layout.VBox<br>
  * javafx.scene.layout.HBox<br>
+ * <img alt="image" src="./doc-files/App4VBoxHbox.png">
  * 
  * @author sakamoto
  *
  */
 public class App4VBoxHbox extends Application {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+	public static void main(String[] args) {
+		launch(args);
+	}
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        // VBox
-        VBox box = new VBox(5.0d);
-        Label label = new Label("Label");
-        Text text = new Text("Text");
-        TextField field = new TextField("TextField");
-        Button button = new Button("Button");
+	@Override
+	public void start(Stage stage) throws Exception {
+		// VBox
+		VBox box = new VBox(5.0d);
+		Label label = new Label("Label");
+		Text text = new Text("Text");
+		TextField field = new TextField("TextField");
+		Button button = new Button("Button");
 
-        Separator separator = new Separator();
+		Separator separator = new Separator();
 
-        HBox hbox1 = new HBox(5.0d);
-        CheckBox checkBox1 = new CheckBox("CheckBox1");
-        CheckBox checkBox2 = new CheckBox("CheckBox2");
-        hbox1.getChildren().add(checkBox1);
-        hbox1.getChildren().add(checkBox2);
+		HBox hbox1 = new HBox(5.0d);
+		CheckBox checkBox1 = new CheckBox("CheckBox1");
+		CheckBox checkBox2 = new CheckBox("CheckBox2");
+		hbox1.getChildren().add(checkBox1);
+		hbox1.getChildren().add(checkBox2);
 
-        HBox hbox2 = new HBox(5.0d);
-        ToggleGroup toggleGroup = new ToggleGroup();
-        RadioButton radioButton1 = new RadioButton("RadioButton1");
-        RadioButton radioButton2 = new RadioButton("RadioButton2");
-        RadioButton radioButton3 = new RadioButton("RadioButton3");
-        radioButton1.setToggleGroup(toggleGroup);
-        radioButton2.setToggleGroup(toggleGroup);
-        radioButton3.setToggleGroup(toggleGroup);
-        hbox2.getChildren().add(radioButton1);
-        hbox2.getChildren().add(radioButton2);
-        hbox2.getChildren().add(radioButton3);
+		HBox hbox2 = new HBox(5.0d);
+		ToggleGroup toggleGroup = new ToggleGroup();
+		RadioButton radioButton1 = new RadioButton("RadioButton1");
+		RadioButton radioButton2 = new RadioButton("RadioButton2");
+		RadioButton radioButton3 = new RadioButton("RadioButton3");
+		radioButton1.setToggleGroup(toggleGroup);
+		radioButton2.setToggleGroup(toggleGroup);
+		radioButton3.setToggleGroup(toggleGroup);
+		hbox2.getChildren().add(radioButton1);
+		hbox2.getChildren().add(radioButton2);
+		hbox2.getChildren().add(radioButton3);
 
-        ObservableList<String> list = FXCollections.observableArrayList("Menu1", "Menu2", "Menu3");
-        ComboBox<String> comboBox = new ComboBox<>(list);
-        comboBox.setValue(list.get(0));
+		ObservableList<String> list = FXCollections.observableArrayList(
+				"Menu1", "Menu2", "Menu3");
+		ComboBox<String> comboBox = new ComboBox<>(list);
+		comboBox.setValue(list.get(0));
 
-        Slider slider = new Slider(0, 100, 0);
-        slider.setShowTickMarks(true);
-        slider.setShowTickLabels(true);
-        slider.setSnapToTicks(true);
+		Slider slider = new Slider(0, 100, 0);
+		slider.setShowTickMarks(true);
+		slider.setShowTickLabels(true);
+		slider.setSnapToTicks(true);
 
-        box.getChildren().add(label);
-        box.getChildren().add(text);
-        box.getChildren().add(field);
-        box.getChildren().add(button);
-        box.getChildren().add(separator);
+		box.getChildren().add(label);
+		box.getChildren().add(text);
+		box.getChildren().add(field);
+		box.getChildren().add(button);
+		box.getChildren().add(separator);
 
-        box.getChildren().add(hbox1);
-        box.getChildren().add(hbox2);
-        box.getChildren().add(comboBox);
-        box.getChildren().add(slider);
+		box.getChildren().add(hbox1);
+		box.getChildren().add(hbox2);
+		box.getChildren().add(comboBox);
+		box.getChildren().add(slider);
 
-        Scene scene = new Scene(box, 520, 320);
-        stage.setScene(scene);
-        stage.show();
-    }
+		Scene scene = new Scene(box, 520, 320);
+		stage.setScene(scene);
+		stage.show();
+	}
 }

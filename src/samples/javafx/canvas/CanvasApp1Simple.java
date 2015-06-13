@@ -9,7 +9,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * 
+ * <img alt="image" src="./doc-files/CanvasApp1Simple.png">
  * 
  * @author sakamoto
  *

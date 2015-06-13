@@ -12,23 +12,24 @@ import javafx.stage.Stage;
  * javafx.scene.Scene <br>
  * javafx.scene.control.Label<br>
  * javafx.stage.Stage<br>
+ * <img alt="image" src="./doc-files/App2BorderPane.png">
  * 
  * @author sakamoto
  *
  */
 public class App2BorderPane extends Application {
 
-    public static void main(String[] args) {
-        launch(args);
-    }
+	public static void main(String[] args) {
+		launch(args);
+	}
 
-    @Override
-    public void start(Stage stage) throws Exception {
-        Label label = new Label("Hello JavaFX");
-        BorderPane pane = new BorderPane();
-        pane.setCenter(label);
-        Scene scene = new Scene(pane, 520, 320);
-        stage.setScene(scene);
-        stage.show();
-    }
+	@Override
+	public void start(Stage stage) throws Exception {
+		Label label = new Label("Hello JavaFX");
+		BorderPane pane = new BorderPane();
+		pane.setCenter(label);
+		Scene scene = new Scene(pane, 520, 320);
+		stage.setScene(scene);
+		stage.show();
+	}
 }
