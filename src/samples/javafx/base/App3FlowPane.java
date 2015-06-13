@@ -7,8 +7,8 @@ import javafx.scene.layout.FlowPane;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * javafx.scene.layout.FlowPane<br/>
+ * How to use <br>
+ * javafx.scene.layout.FlowPane<br>
  * 
  * @author sakamoto
  *

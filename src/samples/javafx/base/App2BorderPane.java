@@ -7,11 +7,11 @@ import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * javafx.scene.layout.BorderPane<br/>
- * javafx.scene.Scene <br/>
- * javafx.scene.control.Label<br/>
- * javafx.stage.Stage<br/>
+ * How to use <br>
+ * javafx.scene.layout.BorderPane<br>
+ * javafx.scene.Scene <br>
+ * javafx.scene.control.Label<br>
+ * javafx.stage.Stage<br>
  * 
  * @author sakamoto
  *

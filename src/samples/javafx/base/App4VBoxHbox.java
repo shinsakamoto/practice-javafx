@@ -19,9 +19,9 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * javafx.scene.layout.VBox<br/>
- * javafx.scene.layout.HBox<br/>
+ * How to use <br>
+ * javafx.scene.layout.VBox<br>
+ * javafx.scene.layout.HBox<br>
  * 
  * @author sakamoto
  *

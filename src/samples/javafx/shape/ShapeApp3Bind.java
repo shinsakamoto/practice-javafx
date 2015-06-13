@@ -11,7 +11,7 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
- * How to use bind<br/>
+ * How to use bind<br>
  * 
  * @author sakamoto
  *

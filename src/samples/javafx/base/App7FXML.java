@@ -9,9 +9,9 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * fxml<br/>
- * Handler mapping with Initializable<br/>
+ * How to use <br>
+ * fxml<br>
+ * Handler mapping with Initializable<br>
  * 
  * @author sakamoto
  *

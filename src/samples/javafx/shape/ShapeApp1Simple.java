@@ -9,8 +9,8 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 /**
- * How to use shape.<br/>
- * 
+ * How to use shape.<br>
+ * <img alt="image" src="./doc-files/ShapeApp1Simple.png">
  * @author sakamoto
  *
  */

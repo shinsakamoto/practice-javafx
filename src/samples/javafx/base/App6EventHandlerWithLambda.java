@@ -9,9 +9,9 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * javafx.event.EventHandler<br/>
- * Lambda<br/>
+ * How to use <br>
+ * javafx.event.EventHandler<br>
+ * Lambda<br>
  * 
  * @author sakamoto
  *

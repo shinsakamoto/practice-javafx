@@ -18,7 +18,7 @@ public class App8FXMLController {
     private TextField text1;
 
     /**
-     * This method is mapped in fxml file.<br/>
+     * This method is mapped in fxml file.<br>
      * see app8.fxml
      */
     public void onAction() {

@@ -16,8 +16,8 @@ import javafx.stage.Stage;
 import javafx.util.Duration;
 
 /**
- * How to use javafx animation<br/>
- * 
+ * How to use javafx animation<br>
+ * <img alt="image" src="./doc-files/ShapeApp2Animation.png">
  * @author sakamoto
  *
  */

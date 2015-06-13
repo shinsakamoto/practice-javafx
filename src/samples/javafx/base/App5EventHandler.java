@@ -11,8 +11,8 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * How to use <br/>
- * javafx.event.EventHandler<br/>
+ * How to use <br>
+ * javafx.event.EventHandler<br>
  * 
  * @author sakamoto
  *
