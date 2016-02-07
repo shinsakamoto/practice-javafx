@@ -23,7 +23,7 @@
 	
 		<mkdir dir="project" />
 		<copy todir="project">
-			<fileset dir="C:\work\90.Study\Eclipse\workspace\practice-javafx">
+			<fileset dir="/Users/shin/Documents/workspace-study/practice-java2">
 				<include name="src/**" />
 			</fileset>
 		</copy>
@@ -91,6 +91,7 @@
 		<fx:application id="fxApplication"
 			name="FxSystemTray"
 			mainClass="samples.javafx.systemtray.FxSystemTray"
+			version="1.0"
 		/>
 	
 		<mkdir dir="build/classes/META-INF" />
@@ -120,7 +121,7 @@
 			includeDT="false"
 			offlineAllowed="true"
 			outdir="${basedir}/deploy"
-			outfile="practice-javafx" nativeBundles="exe"
+			outfile="practice-javafx" nativeBundles="all"
 			updatemode="background" >
 	
 			<fx:platform basedir="${java.home}"/>
